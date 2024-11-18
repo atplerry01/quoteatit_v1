@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        bigTablet: "820px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#121C27",
       },
     },
   },
